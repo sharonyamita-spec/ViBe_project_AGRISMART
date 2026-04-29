@@ -1,21 +1,16 @@
-# ViBe_project_AGRISMART
-This can be used by Farmers to predict 
-what type of soil and weather are appropraite for which crops How to store them?.How to plant them?
-Farmer Assist - MERN Stack Web App
-I have successfully scaffolded and built the AgriSmart web application using the MERN stack!
+# React + Vite
 
-What was built
-Backend
-Initialized an Express/Node.js backend with Mongoose.
-Created the Crop Model to store details like planting times, storage instructions, climate, and soil types.
-Implemented REST API Routes for fetching crops and filtering them based on recommendations.
-Set up a MongoDB Connection to your local database (mongodb://localhost:27017/farmer-assist).
-Seeded the database with 5 initial mock crops (Wheat, Rice, Corn, Tomato, Potato) using a seed script.
-Frontend
-Scaffolded a React application using Vite.
-Styled using a custom dark mode Vanilla CSS theme, ensuring a dynamic, premium aesthetic with smooth micro-animations.
-Implemented the three core features requested:
-Which crop to plant: A CropRecommender form that sends user conditions to the backend and displays suitable crops.
-When to plant: A PlantingGuide visualizing planting and harvesting timelines.
-How to store: A StorageWiki with search capability and visual icons indicating temperature, humidity, and duration for eachcrop's optimal storage.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
